@@ -1,5 +1,5 @@
 # enviroment-setup-react-typescript
-#setting up jest and react testing library
+# setting up jest and react testing library
 1- yarn add jest typescript ts-jest @types/jest (https://kulshekhar.github.io/ts-jest/docs/getting-started/installation) \
 2- yarn ts-jest config:init (creates a jest.config.js file) (https://kulshekhar.github.io/ts-jest/docs/getting-started/installation) \
 3- in the jest.config.js file, change the testEnviroment from 'node' to 'jsdom' and add the following line: setupFilesAfterEnv: ["./src/jest.setup.ts"] (will run the setup file in each test) \
@@ -12,7 +12,7 @@ transform: { "^.+\.js$": "babel-jest", ".+\.(css|styl|less|sass|scss|png|jpg|svg
 9- in your package.json, add the script: "test":"jest --watchAll" \
 10- run yarn test
 
-#setting up eslint and prettier
+# setting up eslint and prettier
 1- add the extensions "eslint" and "prettier" to your vscode \
 2- yarn add eslint \
 3- yarn create @eslint/config (creates eslint config) \
